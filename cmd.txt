@@ -1,0 +1,20 @@
+#Documentacion
+
+https://neogeek325.wordpress.com/2019/08/15/yii-2-framework-docker/
+
+git clone https://github.com/yiisoft/yii2-app-advanced.git appDemo
+
+cd appDemo
+
+docker exec -it <container> bash
+cd bin
+
+tr -d '\015' <console >console.new
+mv console console.old
+mv console.new console
+
+
+tr -d '\015' <yii >yii.new
+mv yii yii.old
+mv yii.new yii
+
